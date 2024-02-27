@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="mainDiv">
+      <!-- ye main div he -->
+      <h1 id="mainHeading">Temperature Convertor</h1>
+
+      <!-- temperature convertor's form start -->
+      <form>
+        <!-- degrees input -->
+        <label for="degreeInput">
+          Degrees
+          <input type="number" id="degreeInput" value="0" />
+        </label>
+
+        <!-- select input for celsius and fahrenheit -->
+        <label>
+          <select id="selectInput">
+            <option value="celsius">Celsius</option>
+            <option value="fahrenheit">Fahrenheit</option>
+          </select>
+        </label>
+        <br />
+        <input type="submit" value="Convert" id="convertBtn" />
+      </form>
+      <!-- temperature convertor's form end -->
+
+      <!-- result div -->
+      <div>
+        <p>Result</p>
+        <p>
+          <span id="showConvertedTemperature">32</span>
+          <span id="digreeO">&deg;</span><span id="showTemperatureUnit">F</span>
+        </p>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

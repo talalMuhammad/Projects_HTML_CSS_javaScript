@@ -1,0 +1,69 @@
+* {
+  text-align: center;
+  justify-content: center;
+}
+
+body {
+  background-color: bisque;
+}
+
+#mainDiv {
+  border: 2px solid purple;
+  width: 400px;
+  margin: 50px auto;
+  border-radius: 5px;
+  box-shadow: 15px 20px 30px 10px black;
+  background-color: white;
+}
+#mainHeading {
+  color: purple;
+  text-decoration: underline purple;
+}
+
+#degreeInput {
+  border: 2px solid purple;
+  margin: 5px 2px;
+  border-radius: 5px;
+  padding: 3px 5px;
+  font-size: 16px;
+  width: 100px;
+  color: purple;
+}
+
+#selectInput:hover {
+  cursor: pointer;
+  background-color: purple;
+  color: white;
+}
+
+#selectInput {
+  border: 2px solid purple;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 3px 5px;
+  color: purple;
+}
+
+#convertBtn:hover {
+  cursor: pointer;
+  background-color: purple;
+  color: white;
+}
+
+#convertBtn {
+  border: 2px solid purple;
+  padding: 3px 5px;
+  font-size: 16px;
+  width: 100px;
+  border-radius: 5px;
+  background-color: white;
+  color: purple;
+  margin: 3px;
+}
+
+p {
+  margin: 10px;
+}
+#showConvertedTemperature {
+  font-weight: bold;
+}
