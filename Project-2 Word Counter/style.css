@@ -1,0 +1,67 @@
+@import "https://fonts.googleapis.com/css2?family=Bree+Serif&family=Ubuntu&family=Varela+Round&display=swap";
+
+.bree-serif-regular {
+  font-family: "Bree Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-color: gray;
+}
+
+#mainHeading {
+  text-align: center;
+  text-shadow: 5px 5px 5px darkgreen;
+  background-color: white;
+  width: 450px;
+  margin: 5px auto;
+  padding: 5px 5px;
+  border: 2px solid;
+  border-radius: 5px;
+}
+
+#textareaInput {
+  display: block;
+  margin: 0 auto;
+  font-family: "bree serif";
+  border: 2px solid black;
+  border-radius: 5px;
+  text-align: justify;
+  max-width: 450px;
+  min-width: 450px;
+  max-height: 200px;
+  min-height: 200px;
+  font-size: 16px;
+  padding: 5px;
+}
+
+#countBtn:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+#countBtn {
+  display: block;
+  margin: 10px auto;
+  border: 2px solid;
+  background-color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.showP {
+  text-align: center;
+  font-size: 22px;
+  background-color: white;
+  width: 450px;
+  margin: 0 auto;
+  padding: 5px;
+  border: 2px solid;
+  border-radius: 5px;
+}
+#feedBack {
+  font-size: 16px;
+}

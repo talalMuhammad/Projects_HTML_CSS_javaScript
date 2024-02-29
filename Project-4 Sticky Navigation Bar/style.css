@@ -1,0 +1,32 @@
+* {
+  text-align: center;
+  margin: 0;
+}
+
+.sticky {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+#navList {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  background-color: blue;
+
+  height: 50px;
+  align-items: center;
+  color: white;
+}
+
+.listItems {
+  margin: 0 10px;
+}
+
+.about {
+  text-decoration: underline;
+}
+.websiteText {
+  text-align: justify;
+}
